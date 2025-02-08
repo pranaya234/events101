@@ -1,13 +1,13 @@
-# [Project Name] 🎯
+# [EVENTS101] 🎯
 
 
 ## Basic Details
-### Team Name: [Name]
+### Team Name: [PRANAYA'S]
 
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [PRANAYA R] - [SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY]
+- Member 2: [THEERTHA MANOJ] - [SCMS SCHOOL OF ENGINEERING AND TECHNOLOGY]
 - Member 3: [Name] - [College]
 
 ### Hosted Project Link
