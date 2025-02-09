@@ -43,7 +43,7 @@ For Software:html, css, JavaScript
 [commands]
 
 ### Project Documentation
-For Software: 
+For Software: Our website is mainly focusing on a website which gives a calendar with some minor events.we used github,vs code,chat gpt,googlemaps etc to complete our project.Its takes almost 18 hours to complete.When we search for small events around our surroundingd, we wont be able to find it properly,but this website helps people to reach these minor events quickly.
 
 # Screenshots (Add at least 3)
 ![image](https://github.com/user-attachments/assets/3f7ff010-c2a2-4e41-bc10-558e2e125128)
