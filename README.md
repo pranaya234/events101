@@ -14,21 +14,21 @@
 [mention your project hosted project link here]
 
 ### Project Description
-[2-3 lines about what your project does]
+[This is a website which shows a calender of minor events. It give brief description of the events like location which redirect to googlemap, date,. Also we can register for these events]
 
 ### The Problem statement
-[What ridiculous problem are you solving?]
+[We are unable to find minor events taking place around a specific region]
 
 ### The Solution
-[How are you solving it? Keep it fun!]
+[we created a website which shows calender with upcoming minor events where we can see brief description, location which directs to googlemap, register option etc. ]
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
+- [HTML, CSS, JAVASCRIPT]
 - [Frameworks used]
 - [Libraries used]
-- [Tools used]
+- [VS CODE, CHATGPT, GOOGLE MAPS]
 
 For Hardware:
 - [List main components]
@@ -36,7 +36,7 @@ For Hardware:
 - [List tools required]
 
 ### Implementation
-For Software:
+For Software:html, css, JavaScript 
 # Installation
 [commands]
 
@@ -44,7 +44,7 @@ For Software:
 [commands]
 
 ### Project Documentation
-For Software:
+For Software: 
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
@@ -53,7 +53,7 @@ For Software:
 ![Screenshot2](Add screenshot 2 here with proper name)
 *Add caption explaining what this shows*
 
-![Screenshot3](Add screenshot 3 here with proper name)
+![](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
 
 # Diagrams
