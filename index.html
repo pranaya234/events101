@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hackathon Events</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.5/main.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/5.11.5/main.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1> Events Calendar</h1>
+    <div id="calendar"></div>
+
+    <div id="eventModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="eventTitle"></h2>
+            <p id="eventDesc"></p>
+            <a id="eventLink" class="register-btn" href="#" target="_blank">Register</a>
+            <br>
+            <a id="eventLocation" class="location-btn" href="#" target="_blank">View Location</a> <!-- Added location link -->
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var calendarEl = document.getElementById('calendar');
+            var modal = document.getElementById("eventModal");
+            var closeBtn = document.getElementsByClassName("close")[0];
+            var locationLink = document.getElementById('eventLocation'); // Access the location link
+
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth',
+                events: [
+                    {
+                        title: 'AI Hackathon',
+                        start: '2025-02-15',
+                        description: 'A 24-hour AI hackathon with exciting prizes!',
+                        link: 'redirect.html',
+                        location: 'https://maps.app.goo.gl/r8y6SfPtGtFyise28'
+                    },
+                    {
+                        title:'Circus',
+                        start:'2025-03-03',
+                        description:'Electrifying circus experience with hilarious clown antics',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/dHi6vKWYnCKmhTaj6'
+                    },
+                    {
+                        title:'Food Fest',
+                        start:'2025-03-16',
+                        description:'Dynamic fusion of food where flavours meet fun',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/XNs8SqjXsKcK9tFs7'
+                    },
+                    {
+                        title:'Game Jam',
+                        start:'2025-03-30',
+                        description:'A Hackthon related to Game',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/irMUQQf65LTCE8nM8'
+                    },
+                    {
+                        title:'Lingua Fest',
+                        start:'2025-04-12',
+                        description:'A Festival of language where words meet world',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/pEpKiKiFxvBDzrc8A'
+                    },
+                    {
+                        title:'Cultural Events',
+                        start:'2025-04-25',
+                        description:'A Festival of arts and science',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/fxxXYPUxM6SQS45P7'
+                    },
+                    {
+                        title:'Code Fest',
+                        start:'2025-05-25',
+                        description:'A 18 hours coding marathon',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/jS8CNH6unrghq1xX8'
+                    },
+                    { 
+                        title:'Flower Show',
+                        start:'2025-02-04',
+                        description: 'A vibrant exhibition of showcasing blooming flowers!',
+                        link:'redirect.html',
+                        location:'https://maps.app.goo.gl/hUTgaDUmT5bti6698'
+                    },
+                    {
+                        title: 'Web Dev Challenge',
+                        start: '2025-02-20',
+                        description: 'Compete to build the best website in 12 hours!',
+                        link: 'redirect.html',
+                        location:'https://maps.app.goo.gl/nkhtLicfaTpDbAZo7'
+                    },
+                    {
+                        title: 'Cybersecurity CTF',
+                        start: '2025-02-25',
+                        description: 'Test your hacking skills in this CTF challenge!',
+                        link: 'redirect.html',
+                        location:'https://maps.app.goo.gl/v69z88ncFn85nfFu5'
+                    }
+                ],
+                eventClick: function (info) {
+                    document.getElementById('eventTitle').innerText = info.event.title;
+                    document.getElementById('eventDesc').innerText = info.event.extendedProps.description;
+                    document.getElementById('eventLink').href = info.event.extendedProps.link;
+                    // Set location link directly
+                    locationLink.href = info.event.extendedProps.location;
+                    modal.style.display = "flex";
+                }
+            });
+
+            calendar.render();
+
+            // Close event modal
+            closeBtn.onclick = function () {
+                modal.style.display = "none";
+            }
+
+            // If the location link is clicked, redirect to the location URL
+            locationLink.onclick = function (e) {
+                e.preventDefault(); // Prevent the default action of the anchor tag
+                window.open(locationLink.href, '_blank'); // Open in a new tab
+            };
+
+            // Close the modal if clicked outside
+            window.onclick = function (event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+        });
+    </script>
+
+</body>
+</html>
+
+
