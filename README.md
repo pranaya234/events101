@@ -11,8 +11,7 @@
 - Member 3: [Name] - [College]
 
 ### Hosted Project Link
-[mention your project hosted project link here]
-
+(https://events101.vercel.app/)
 ### Project Description
 [This is a website which shows a calender of minor events. It give brief description of the events like location which redirect to googlemap, date,. Also we can register for these events]
 
@@ -47,14 +46,13 @@ For Software:html, css, JavaScript
 For Software: 
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![image](https://github.com/user-attachments/assets/3f7ff010-c2a2-4e41-bc10-558e2e125128)
+the css of the main page
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot (1)](https://github.com/user-attachments/assets/861e890f-6daa-43c6-bdb9-5067668d6ac8)
 
-![](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+![Screenshot (2)](https://github.com/user-attachments/assets/c7a3b450-0e8c-4d80-b506-53aeaa7c969a)
+html of main page
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
@@ -84,16 +82,15 @@ For Hardware:
 
 ### Project Demo
 # Video
-[Add your demo video link here]
+
 *Explain what the video demonstrates*
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+Theertha-Front end
+Pranaya-interactive element
 
 ---
 Made with ❤️ at TinkerHub
