@@ -82,9 +82,9 @@ For Hardware:
 
 ### Project Demo
 # Video
+https://drive.google.com/file/d/18eaWtg3qKcrDtd6UDjOxpZN7IY1R3tQ4/view?usp=sharing
 
-*Explain what the video demonstrates*
-
+demonstrates the basic use of the website
 # Additional Demos
 [Add any extra demo materials/links]
 
